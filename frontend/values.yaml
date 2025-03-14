@@ -1,0 +1,7 @@
+deployment:
+  replicas: 1
+  imageversion: 1.0.0
+hpa:
+  minreplicas: 1
+  maxreplicas: 10
+  cpuutilisation: 5
